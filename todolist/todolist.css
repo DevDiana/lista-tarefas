@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    background-color: black;
+    text-align: center;
+    color:  #ffe6f0;
+    padding-top: 20px;
+  }
+
+    #todo-container {
+    margin-bottom: 10px;
+    padding-top: 50px;
+  }
+  
+  #todo-container input[type="text"] {
+    width: 200rem;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 19px;
+    width: 50%;
+    height: 50%;
+    padding: 1rem;
+  }
+  
+  #todo-container button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  li span {
+    cursor: pointer;
+  }
+
+  .round-button {
+    background:  #ff0066;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .round-button:hover {
+    background: linear-gradient(to right, #ff3366, #ff6699);
+  }
+  
+  
+  .completed {
+    text-decoration: line-through;
+    color: #ffe6f0;;
+  }
+  
